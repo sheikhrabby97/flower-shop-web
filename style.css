@@ -6,6 +6,14 @@
 
 }
 
+html,body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
 body {
     font-family: 'Lato', sans-serif;
 }
@@ -62,12 +70,12 @@ body {
 
 /* Main part style */
 
-.info-container{
+.info-container {
     display: flex;
     gap: 24px;
     justify-content: center;
-    padding-top:50px;
-   
+    padding-top: 50px;
+
 }
 
 
@@ -77,7 +85,7 @@ body {
     font-size: 40px;
     font-style: normal;
     font-weight: 800;
-    padding-top: 178px ;
+    padding-top: 178px;
     padding-bottom: 30px;
 }
 
@@ -89,34 +97,81 @@ body {
     font-weight: 400;
 }
 
-.little-pra{
+.little-pra {
     text-align: center;
     text-decoration: underline 2px;
     padding-top: 32px;
-   
+
 }
 
 .flower-img1 {
     border: none;
-    background-color:rgba(167, 33, 98, 0.15);
+    background-color: rgba(167, 33, 98, 0.15);
     border-radius: 300px 300px 0px 0px;
-    padding:90px 65px 0px 62px ;
-   
+    padding: 90px 65px 0px 62px;
+
 }
 
 .flower-img2 {
     border: none;
-    background-color:rgba(167, 33, 98, 0.15);
+    background-color: rgba(167, 33, 98, 0.15);
     border-radius: 300px 300px 0px 0px;
-   padding:95px 38px 53px 53px ;
+    padding: 95px 38px 53px 53px;
 }
 
-    
+
 .flower-img3 {
     border: none;
-    background-color:rgba(167, 33, 98, 0.15);
+    background-color: rgba(167, 33, 98, 0.15);
     border-radius: 300px 300px 0px 0px;
-    padding:47px 56px 0px 50px ;
-   
+    padding: 47px 56px 0px 50px;
+
 }
 
+/* main part sign up from style */
+
+.sign-container {
+    width: 1910px;
+    height: 590px;
+    background: rgba(229, 84, 115, 0.05);
+    display: flex;
+    gap: 140px;
+    margin-top: 130px;
+
+}
+
+.si-heading {
+    color: #272727;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    padding: 230px 70px 24px 420px ;
+
+}
+
+.si-pra {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    padding:0px 0px 32px 395px;
+    
+}
+.si-flower {
+    padding: 100px 430px 100px 140px;
+}
+.btn-primary2 {
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    border-radius: 8px;
+    background: #E55473;
+    margin: 0px 280px 162px 603px;
+    border: none;
+    padding: 20px 43px;
+    display: inline-flex;
+    gap: 10px
+}
