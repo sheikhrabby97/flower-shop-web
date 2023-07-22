@@ -65,6 +65,9 @@ body {
 .info-container{
     display: flex;
     gap: 24px;
+    justify-content: center;
+    padding-top:50px;
+   
 }
 
 
@@ -74,6 +77,8 @@ body {
     font-size: 40px;
     font-style: normal;
     font-weight: 800;
+    padding-top: 178px ;
+    padding-bottom: 30px;
 }
 
 .pra-style2 {
@@ -84,17 +89,34 @@ body {
     font-weight: 400;
 }
 
+.little-pra{
+    text-align: center;
+    text-decoration: underline 2px;
+    padding-top: 32px;
+   
+}
+
 .flower-img1 {
     border: none;
     background-color:rgba(167, 33, 98, 0.15);
     border-radius: 300px 300px 0px 0px;
-    
+    padding:90px 65px 0px 62px ;
+   
 }
+
 .flower-img2 {
+    border: none;
     background-color:rgba(167, 33, 98, 0.15);
     border-radius: 300px 300px 0px 0px;
+   padding:95px 38px 53px 53px ;
 }
+
+    
 .flower-img3 {
+    border: none;
     background-color:rgba(167, 33, 98, 0.15);
     border-radius: 300px 300px 0px 0px;
+    padding:47px 56px 0px 50px ;
+   
 }
+
